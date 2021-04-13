@@ -1,0 +1,38 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 69c1e4
+  secondary: 43788c
+  secondary-dark: 333
+  muted: 777
+  image: linear-gradient(to bottom,#43788c 0,#69c1e4 100%);
+
+# Font Families
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+
+skills:
+  - name: Python
+    level: 90
+  - name: C/C++
+    level: 80
+  - name: JAVA
+    level: 60
+  - name: Objective-C
+    level: 75
+  - name: R
+    level: 75
+  - name: Octave
+    level: 85
+  - name: Tensorflow
+    level: 80
+  - name: Keras
+    level: 75
+  - name: Theano
+    level: 60
+  - name: OpenCV
+    level: 85
+  - name: OpenGL
+    level: 85
+  - name: Latex
+    level: 70
