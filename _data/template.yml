@@ -36,3 +36,15 @@ skills:
     level: 85
   - name: Latex
     level: 70
+
+social:
+  - name: facebook
+    url: #
+  - name: linkedin
+    url: #
+  - name: github
+    url: #
+
+user:
+  - name: Ashima Jain
+    designation: Lead Engineer, Data Scientist

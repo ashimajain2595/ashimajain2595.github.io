@@ -47,24 +47,16 @@
 				<div class="timeline-image">
 					<figure><img class="img-circle img-responsive" src="img/team/profile_pic.jpg" alt=""><figure>
 				</div>
-                <div class="intro-lead-in">Ashima Jain</div>
-                <div class="intro-heading-v2">Lead Engineer, Data Scientist
+                <div class="intro-lead-in">{{site.data.template.user.name}}</div>
+                <div class="intro-heading-v2">{{site.data.template.user.designation}}
                   <ul class="list-inline social-buttons">
+                    {% for social in site.data.template.social  %}
                       <li>
-                          <a href="#" target="_blank" class="facebook">
-                              <i class="fa fa-facebook"></i>
+                          <a href="{{social.url}}" target="_blank" class="{{social.name}}">
+                              <i class="fa fa-{{social.name}}"></i>
                           </a>
                       </li>
-                      <li>
-                          <a href="#" target="_blank" class="linkedin">
-                              <i class="fa fa-linkedin"></i>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#" target="_blank" class="github">
-                              <i class="fa fa-github"></i>
-                          </a>
-                      </li>
+                    {% endfor %}
                   </ul>
                 </div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
