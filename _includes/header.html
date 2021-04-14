@@ -44,22 +44,22 @@
     <header>
         <div class="container">
             <div class="intro-text">
-				<div class="timeline-image">
-					<figure><img class="img-circle img-responsive" src="img/team/profile_pic.jpg" alt=""><figure>
-				</div>
-                <div class="intro-lead-in">{{site.data.template.user.name}}</div>
-                <div class="intro-heading-v2">{{site.data.template.user.designation}}
-                  <ul class="list-inline social-buttons">
-                    {% for social in site.data.template.social  %}
-                      <li>
-                          <a href="{{social.url}}" target="_blank" class="{{social.name}}">
-                              <i class="fa fa-{{social.name}}"></i>
-                          </a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                </div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+      				<div class="timeline-image">
+      					<figure><img class="img-circle img-responsive" src="img/team/profile_pic.jpg" alt=""><figure>
+      				</div>
+              <div class="intro-lead-in">{{site.data.template.user.name}}</div>
+              <div class="intro-heading-v2">{{site.data.template.user.designation}}
+                <ul class="list-inline social-buttons">
+                  {% for social in site.data.template.social  %}
+                    <li>
+                        <a href="{{social.url}}" target="_blank" class="{{social.name}}">
+                            <i class="fa fa-{{social.name}}"></i>
+                        </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+              <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
